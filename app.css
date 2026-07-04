@@ -1,0 +1,117 @@
+.body-background {
+  background: linear-gradient(135deg, #4f8ff7, #9b5cf6);
+}
+
+.structure {
+  background-color: #ffffff;
+  width: 600px;
+  margin: 80px auto;
+  padding: 60px 40px;
+  text-align: center;
+  border-radius: 30px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.round-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: px;
+  font-weight: 700;
+  color: #1f2a44;
+}
+
+.profession {
+  font-size: 26px;
+  font-weight: 500;
+  color: #7668f2;
+}
+
+.line-dot-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 25px 0;
+}
+
+.line-dot-line span {
+  width: 200px;
+  height: 2px;
+  background: #8a6cf5;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #8a6cf5;
+  border-radius: 50%;
+}
+
+.bio {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5b6475;
+  line-height: 13px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.btn img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(1) invert(1);
+}
+
+.linkedin {
+  background: #0a66c2;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.github {
+  background: #24292f;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.contact {
+  background: #16a34a;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+footer {
+  background-color: #161e2d;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
